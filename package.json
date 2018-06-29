@@ -1,23 +1,21 @@
 {
   "name": "web",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "homepage": "https://elvoai.github.io"
+  "homepage": "https://elvoai.github.io",
   "dependencies": {
     "antd": "^3.2.3",
+    "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.2.0",
-    "react-redux": "^5.0.7",
-    "react-scripts": "1.1.1",
-    "react-toggle-switch": "^3.0.4",
-    "redux": "^4.0.0"
+    "react-scripts": "1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   }
 }
