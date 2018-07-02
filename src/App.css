@@ -45,7 +45,7 @@
   cursor: pointer;
   font-size: 2rem;
   /*position: fixed;*/
-  margin: 30px;
+  margin: 20px;
   top: 50%;
 }
 
@@ -55,4 +55,23 @@
 
 .slide-arrow.left {
   left: 1rem;
+}
+
+#wrapper {
+  display: flex;
+}
+#left {
+  flex: 0 0 45%;
+  padding-right: 30px;
+}
+#right {
+  flex: 1;
+  background: #333;
+}
+#caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }

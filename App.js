@@ -32,7 +32,7 @@ class App extends Component {
             <a href="#updates">Updates</a>
           </div>
         </Content>
-        <Content style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#fff', padding: 50, margin: 0, minHeight: 200 }}>
+        <Content style={{ background: '#fff', padding: 24, margin: 0, minHeight: 200 }}>
           <h3 id="overview"> Overview</h3>
           <p>
             We are an interdisciplinary research team developing a suite of deep machine
@@ -43,33 +43,26 @@ class App extends Component {
             productivity of medical staff.
           </p>
         </Content>
-        <Content style={{ padding: 30, margin: 0, minHeight: 200 }}>
-          <div id="wrapper">
-          	<div id= "left" style={{ paddingLeft: 20 }}>
-          		<h3 id="projects">Projects</h3>
-          		<h4>Emergent Large Vessel Occlusion “ELVO"</h4>
-          		<p>
-          		An ELVO, or “emergent large vessel occlusion,” is a particularly severe category of stroke
-          		whereby one of the major blood vessels feeding the brain is blocked. Time is incredibly integral 
-          		to ensuring patient independency and survival, and manual  occlusion  delineation 
-          		can be time-consuming. </p>
-          		<p>
-          		Recent deep learning advancements display great promise to 
-          		automate ELVO detection, accelerate downstream care delivery, 
-          		and improve patient outcomes. We use deep learning to improve a 
-          		radiologist’s workflow and prevent unnecessary
-          		disruptions by the stroke team waiting for rapid interpretation. 
-          		</p>
-          	</div>
-          	<div class="right">
-          		<div class="container"> 
-          		{<Carousel />} 
-          		</div>
-          		<div id="caption">
-          		<p> Examples of CTA ELVOs </p>
-          		</div>
-          	</div>
-          	</div> 
+        <Content style={{ padding: 24, margin: 0, minHeight: 200 }}>
+          <h3 id="projects">Projects</h3>
+          <h3>Projects</h3>
+          <h4>Intracranial hemorrhage</h4>
+          <p>
+            Intracranial hemorrhage (ICH) is a general term that describes abnormal bleeding within the
+            skull. ICH may result from either traumatic (i.e,. car accident) or non-traumatic injuries.
+            We use deep learning to accurately pass “normal” brain CTs, giving
+            radiologists more time to interpret the abnormalities. 
+          </p>
+          <h4>Emergent Large Vessel Occlusion “ELVO"</h4>
+          <p>
+          An ELVO, or “emergent large vessel occlusion,” is a particularly severe category of stroke
+          whereby one of the major blood vessels feeding the brain is blocked. We use deep learning to
+          improve a radiologist’s workflow and prevent unnecessary
+          disruptions by the stroke team waiting for rapid interpretation.  </p>
+          <p> Examples of ELVO CTAs: </p>
+        </Content>
+        <Content>
+          <div class="container"> {<Carousel />} </div>
         </Content>
         <Content style={{ background: '#fff', padding: 24, margin: 0, minHeight: 200 }}>
           <h3 id="people"> People</h3>
