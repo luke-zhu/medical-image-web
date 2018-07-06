@@ -32,9 +32,9 @@ class App extends Component {
             <a href="#updates">Updates</a>
           </div>
         </Content>
-        <Content style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#fff', padding: 50, margin: 0, minHeight: 200 }}>
+        <Content style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#fff', padding: 40, margin: 0, minHeight: 200 }}>
           <h3 id="overview"> Overview</h3>
-          <p>
+          <p style={{textAlign: 'center', marginLeft: 15, marginRight: 15, paddingLeft: 30, paddingRight: 30}}>
             We are an interdisciplinary research team developing a suite of deep machine
             learning models to solve high-impact problems in medical data analysis and prediction.
             Our projects involve the learning, development and application of machine learning
@@ -71,24 +71,24 @@ class App extends Component {
           	</div>
           	</div> 
         </Content>
-        <Content style={{ background: '#fff', padding: 24, margin: 0, minHeight: 200 }}>
+        <Content style={{ background: '#fff', padding: 50, margin: 0, minHeight: 200 }}>
           <h3 id="people"> People</h3>
           <p>
-          Sumera S. Subzwari, sumera_subzwari@brown.edu <br />
-          Matthew T. Stib, M.D., matthew.stib@lifespan.org <br />
           Mary P. Dong, mary_dong@brown.edu <br />
-          Amy Wang, amy_wang3@brown.edu <br />
           Yun Ho Kim, yun_ho_kim@brown.edu <br />
+          Matthew T. Stib, M.D., matthew.stib@lifespan.org <br />
+          Sumera S. Subzwari, sumera_subzwari@brown.edu <br />
           Harold J. Triedman, harold_triedman@brown.edu <br />
-          Luke L. Zhu, luke_zhu@brown.edu <br />
           Anthony D. Yao, anthony_yao@brown.edu <br />
-          Jerrold L. Boxerman, M.D. PhD, jboxerman@lifespan.org <br />
+          Amy Wang, amy_wang3@brown.edu <br />
+          Luke L. Zhu, luke_zhu@brown.edu <br />
           Grayson Baird, PhD, gbaird@lifespan.org <br />
-          Ryan A. McTaggart, M.D., ryan.mctaggart@lifespan.org <br />
-          Ugur Cetintemel, PhD, ucetintemel@brown.edu <br />   
+          Jerrold L. Boxerman, M.D. PhD, jboxerman@lifespan.org <br />
+          Ugur Cetintemel, PhD, ucetintemel@brown.edu <br />  
+          Ryan A. McTaggart, M.D., ryan.mctaggart@lifespan.org <br /> 
           </p>
         </Content>
-        <Content style={{ padding: 24, margin: 0, minHeight: 200 }}>
+        <Content style={{ padding: 50, margin: 0, minHeight: 200 }}>
           <h3 id="updates">Updates</h3>
           <p> (June 2018) 90% validation accuracy achieved on 977 CTA images </p>
           <p>Group selected as a recipient of a Karen T. Romer Award</p>

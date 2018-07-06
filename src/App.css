@@ -37,7 +37,7 @@
 .image-slide {
   height: 100%;
   width: 100%;
-  transition: background-image .3s ease-in-out;
+  transition: background-image 1s ease-in-out;
 }
 
 .slide-arrow {
@@ -45,7 +45,7 @@
   cursor: pointer;
   font-size: 2rem;
   /*position: fixed;*/
-  margin: 20px;
+  margin: 10px;
   top: 50%;
 }
 
