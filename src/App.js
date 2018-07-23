@@ -91,10 +91,18 @@ class App extends Component {
         <Content style={{ padding: 50, margin: 0, minHeight: 200 }}>
           <h3 id="updates">Updates</h3>
           <p> (June 2018) 90% validation accuracy achieved on 977 CTA images </p>
-          <p>Group selected as a recipient of a Karen T. Romer Award</p>
+          <p> (February 2018) Group selected as a recipient of a Karen T. Romer Award</p>
           <p><a href="https://www.brown.edu/academics/college/fellowships/utra/sites/brown.edu.academics.college.fellowships.utra/files/uploads/Medical%20Imaging%20Data%20Analytics%20with%20Deep%20Learning-Ugur%20Cetintemel%20and%20Ryan%20McTaggart.pdf">
             Summer 2018 I-UTRA Proposal Released
           </a></p>
+        </Content>
+        <Content style={{ padding: 50, margin: 0, minHeight: 200 }}>
+          <h3 id="acknowledgements">Acknowledgements</h3>
+          <img
+              style={{maxWidth: 200}}
+              src="https://cloud.google.com/_static/6476e1724a/images/cloud/cloud-logo.svg"
+              className="devsite-site-logo"
+              alt="Google Cloud"/>
         </Content>
       </Layout>
     );
