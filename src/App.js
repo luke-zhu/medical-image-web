@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
         <Layout>
-          <Header style={{ color: 'white' }}>
+          <Header style={{ color: 'white', backgroundColor: '#3a1e1a' }}>
             <a href="http://www.brown.edu">
               <img
                   src="https://www.brown.edu/academics/college/fellowships/utra/sites/all/themes/ursa-minor/img/brown-logo.png"
@@ -21,7 +21,7 @@ class App extends Component {
                   style={{ paddingRight: 10 }}
               />
             </a>
-            Medical Image Data Analytics Group
+            Brown Medical Image Data Analytics
           </Header>
           <Content style={{ background: '#333' }}>
             <div class="topnav">
@@ -50,12 +50,10 @@ class App extends Component {
               paddingLeft: 30,
               paddingRight: 30,
             }}>
-              We are an interdisciplinary research team developing a suite of deep machine
+              We are an interdisciplinary research team developing deep machine
               learning models to solve high-impact problems in medical data analysis and prediction.
               Our projects involve the learning, development and application of machine learning
-              (specifically deep learning) over real-world medical imaging data sets for real
-              problems. We hope to make a significant impact on patient outcomes, as well as the
-              productivity of medical staff.
+              over real-world medical imaging data sets.
             </p>
           </Content>
           <Content style={{ padding: 30, margin: 0, minHeight: 200 }}>
@@ -90,24 +88,31 @@ class App extends Component {
             </div>
           </Content>
           <Content style={{ background: '#fff', padding: 50, margin: 0, minHeight: 200 }}>
-            <h3 id="people"> People</h3>
+            <h3 id="people">People</h3>
+            <p>
+              Grayson Baird, PhD, gbaird@lifespan.org <br/>
+              Jerrold L. Boxerman, M.D. PhD, jboxerman@lifespan.org <br/>
+              Ugur Cetintemel, PhD, ugur@cs.brown.edu <br/>
+              Carsten Eickhoff PhD, carsten@brown.edu <br/>
+              Ryan A. McTaggart, M.D., ryan.mctaggart@lifespan.org <br/>
+              Matthew T. Stib, M.D., matthew.stib@lifespan.org <br/>
+            </p>
+            <h4 id="people">Students</h4>
             <p>
               Mary P. Dong, mary_dong@brown.edu <br/>
               Yun Ho Kim, yun_ho_kim@brown.edu <br/>
-              Matthew T. Stib, M.D., matthew.stib@lifespan.org <br/>
               Sumera S. Subzwari, sumera_subzwari@brown.edu <br/>
               Harold J. Triedman, harold_triedman@brown.edu <br/>
               Anthony D. Yao, anthony_yao@brown.edu <br/>
               Amy Wang, amy_wang3@brown.edu <br/>
+              Charlene Wang, charlene.wang@brown.edu <br/>
+              Justin Vazquez, justin_vasquez@brown.edu <br/>
               Luke L. Zhu, luke_zhu@brown.edu <br/>
-              Grayson Baird, PhD, gbaird@lifespan.org <br/>
-              Jerrold L. Boxerman, M.D. PhD, jboxerman@lifespan.org <br/>
-              Ugur Cetintemel, PhD, ucetintemel@brown.edu <br/>
-              Ryan A. McTaggart, M.D., ryan.mctaggart@lifespan.org <br/>
             </p>
           </Content>
           <Content style={{ padding: 50, margin: 0, minHeight: 200 }}>
             <h3 id="updates">Updates</h3>
+            <p> (January 2019) Karen T. Romer UTRA Committee extends funding through Spring 2019</p>
             <p> (June 2018) 90% validation accuracy achieved on 977 CTA images </p>
             <p> (February 2018) Group selected as a recipient of a Karen T. Romer Award</p>
             <p><a
@@ -118,7 +123,7 @@ class App extends Component {
           <Content style={{ padding: 50, margin: 0, minHeight: 200 }}>
             <h3 id="acknowledgements">Acknowledgements</h3>
             <img
-                style={{ maxWidth: 200 }}
+                style={{ maxWidth: 150 }}
                 src="https://cloud.google.com/_static/6476e1724a/images/cloud/cloud-logo.svg"
                 className="devsite-site-logo"
                 alt="Google Cloud"/>
